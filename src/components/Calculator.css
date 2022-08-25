@@ -1,0 +1,43 @@
+button {
+    width: 3em;
+    height: 3em;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 2em;
+    margin: 0.3em;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.wrapper {
+    background-color: #1C1C1C;
+    border-radius: 1em;
+    padding: 1em;
+}
+
+.side-operator {
+    background-color: #FF9500;
+    color: white;
+}
+
+.number-default {
+    background-color: #505050;
+    color: white;
+}
+
+.result{
+    color: white;
+    display: flex;
+    justify-content: end;
+    margin-right: 0.5em;
+    font-size: 3.4em;
+}
+
+#num0 {
+    width: 6.6em;
+    border-radius: 2em;
+    padding-left: 1.2em;
+    text-align: left;
+}
